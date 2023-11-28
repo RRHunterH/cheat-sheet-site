@@ -1,0 +1,22 @@
+/* Universal Elements*/
+:root {
+    --w: white;
+    --b: black;
+}
+html {
+    background-color: black;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+color: var(--b);
+}
+
+header p {
+    text-align: center;
+    padding: 20px;
+    color: var(--w);
+}
